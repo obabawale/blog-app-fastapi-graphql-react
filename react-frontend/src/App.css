@@ -1,5 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MyText {
+  color: theme('colors.blue.500');
+  font-weight: bold;
+}
+
+html, body {
+
+  height: 100%;
+
+  margin: 0;
+
+}
+
 .App {
   text-align: center;
+   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +55,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.content {
+
+  flex: 1;
+
 }
