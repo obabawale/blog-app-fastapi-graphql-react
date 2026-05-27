@@ -30,6 +30,11 @@ pip install -r requirements.txt
 cd ..
 ```
 
+### Install concurrenlty
+```bash
+npm i -g 
+```
+
 ### Run the start.sh file
 ```bash
 sh start.sh
