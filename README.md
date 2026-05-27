@@ -39,3 +39,6 @@ npm i -g
 ```bash
 sh start.sh
 ```
+
+### Access the application
+Go to `http://localhost:3000` to access the frontend app and `http://localhost:8000/graphql` to browse the graphql apis
