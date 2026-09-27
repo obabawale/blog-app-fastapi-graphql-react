@@ -30,9 +30,12 @@ pip install -r requirements.txt
 cd ..
 ```
 
-### Install concurrenlty
+### Install the npm dependencies
 ```bash
-npm i -g 
+npm install
+cd react-frontend
+npm install
+cd ..
 ```
 
 ### Run the start.sh file
