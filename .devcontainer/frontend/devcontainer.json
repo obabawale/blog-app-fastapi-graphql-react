@@ -1,0 +1,15 @@
+{
+  "name": "React Frontend",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "workspaceFolder": "/workspace/blog-app-fastapi-graphql-react/react-frontend",
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000]
+}
